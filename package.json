@@ -1,0 +1,31 @@
+{
+  "name": "spacelink-api",
+  "version": "1.0.0",
+  "description": "api spacelink",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adrien140401/SpaceLink-API.git"
+  },
+  "author": "Bulbizar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adrien140401/SpaceLink-API/issues"
+  },
+  "homepage": "https://github.com/Adrien140401/SpaceLink-API#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
